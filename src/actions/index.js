@@ -1,5 +1,4 @@
-
-// export const SET_CITY = 'SET_CITY'
+export const ITEM = 'ITEM'
 
 //actionCreator
-// export const setCity = (value) => ({type: SET_CITY, value})
+export const item = (value) => ({type: ITEM, value})

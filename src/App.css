@@ -26,3 +26,15 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+body{
+  background-color: #303030;
+}
+
+.btn{
+  width: 30%;
+  margin-bottom: 1%;
+}
+.grid{
+  width: 100%;
+}
