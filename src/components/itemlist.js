@@ -22,7 +22,8 @@ class SearchProducts extends Component {
       showMake(data);
       console.log(data);
    render() {
-       return ()
+       return ();
    }
+});
 }
  //exportar

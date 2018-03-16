@@ -7,6 +7,10 @@ import AutoComplete from 'material-ui/AutoComplete';
 import RefreshIndicator from 'material-ui/RefreshIndicator';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import RaisedButton from 'material-ui/RaisedButton';
+//importar elementpos de material-ui
+// import MainContainer from './container/MainContainer';
+import SearchProducts from './components/searchData';
+import logo from './logo.svg';
 import './App.css';
 
 //constante con los elementos que mostraremos
@@ -49,7 +53,7 @@ class App extends Component {
             <Col xs = {4} md= {8} >
             <Row>
               <Col xs>
-                <AutoComplete hintText="Busqueda" dataSource={this.state.dataSource} onUpdateInput={this.handleUpdateInput}/>
+                <AutoComplete className="SearchProducts" hintText="Busqueda" dataSource={this.state.dataSource} onUpdateInput={this.handleUpdateInput}/>
               </Col>
             </Row>
             <Row>
